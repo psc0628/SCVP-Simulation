@@ -1,9 +1,9 @@
-# SCVP-Simulation
-This is the simulation system of view planning for object reconstruction, supporting our paper "SCVP: Learning One-shot View Planning via Set Covering for Unknown Object Reconstruction". Our dataset can be accessed at www.kaggle.com/sicongpan/scvp-dataset. The source codes and pre-trained model are coming soon.
+# nbv-net-master
+Thanks for github.com/irvingvasquez/nbv-net.
+This is the NBV-Net network under 32 candidate views.
 ## Installion
-For our c++ code, these libraries need to be installed: opencv 4.4.0, PCL 1.9.1, Eigen 3.3.9, OctoMap 1.9.6, Gurobi 9.1.1, Pytorch .
-Thanks for NBV_net source codes (https://github.com/irvingvasquez/nbv-net).
-Our codes can be run on both Windows 10 and Ubuntu 16.04. Please check for the name of source code folder.
+These libraries need to be installed: python 3.8.8, pytorch 1.8.1.
+Our codes can be run on Windows 10.
 ## Note
 Change "const static size_t maxSize = 100000;" to "const static size_t maxSize = 1000" in file OcTreeKey.h, so that the code will run faster.
 ## Usage
