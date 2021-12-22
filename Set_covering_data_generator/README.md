@@ -6,7 +6,7 @@ DefaultConfiguration.yaml is the input config file of our code.
 SC_label_data contians an example of output labeled data (a gird file and a view label file).
 points_on_sphere contians some condidate view space (thanks Spherical Codes neilsloane.com/packings).
 ## Installion
-These libraries need to be installed: opencv 4.4.0, PCL 1.9.1, Eigen 3.3.9, OctoMap 1.9.6, Gurobi 9.1.1.
+These libraries need to be installed: c++ 11, opencv 4.4.0, PCL 1.9.1, Eigen 3.3.9, OctoMap 1.9.6, Gurobi 9.1.1.
 Note that Gurobi is only free for academic use.
 Our codes can be run on Windows 10.
 ## Note
