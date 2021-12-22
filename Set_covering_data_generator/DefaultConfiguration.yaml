@@ -3,7 +3,7 @@ model_path: "../3d_models/"
 name_of_pcd: "LM5"
 method_of_IG : 0
 octomap_resolution: 0.00625
-ground_truth_resolution: 0.001
+ground_truth_resolution: 0.002
 num_of_max_iteration: 10
 show: 0
 move_wait : 0
