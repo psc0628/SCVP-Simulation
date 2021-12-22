@@ -8,7 +8,7 @@ points_on_sphere contians some condidate view space (thanks Spherical Codes neil
 ## Installion
 These libraries need to be installed: opencv 4.4.0, PCL 1.9.1, Eigen 3.3.9, OctoMap 1.9.6, Gurobi 9.1.1.
 Note that Gurobi is only free for academic use.
-Our codes can be run on Windows 10.
+Our codes can be run on Windows 10. For other system, please check the file read/write or multithreading functions in the codes.
 ## Note
 Change "const static size_t maxSize = 100000;" to "const static size_t maxSize = 1000" in file OcTreeKey.h, so that the code will run faster.
 ## Usage
