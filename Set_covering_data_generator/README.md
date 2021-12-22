@@ -14,7 +14,7 @@ Our codes can be run on Windows 10. For other system, please check the file read
 Change "const static size_t maxSize = 100000;" to "const static size_t maxSize = 1000" in file OcTreeKey.h, so that the code will run faster.
 ## Usage
 1. Sample 3d object model from *.obj or *.ply to *.pcd and you can follow this sampling method github.com/PointCloudLibrary/pcl/blob/master/tools/mesh_sampling.cpp. The method can be run as "./pcl_mesh_sampling.exe *.ply *.pcd -n_samples 1000000 -leaf_size 0.5 -no_vis_result". Note that the -leaf_size is depending on the model, making sure that there are over 100000 points in cloud.
-2. Make sure that 3d_models, SCVP_data_generation (contains compiled program), points_on_sphere, DefaultConfiguration.yaml are in the same path.
-3. Change the test model name in file DefaultConfiguration.yaml.
+2. Change the model_path and name_of_pcd in file DefaultConfiguration.yaml.
+3. Make sure that SCVP_data_generation (contains compiled program), points_on_sphere, DefaultConfiguration.yaml are in the same path.
 4. Run compiled program of main.cpp, such as SCVP_data_generation/main.exe.
 5. The output data can be found in SC_label_data folder.
