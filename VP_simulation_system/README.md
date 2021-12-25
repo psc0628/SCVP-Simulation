@@ -14,5 +14,5 @@ Change "const static size_t maxSize = 100000;" to "const static size_t maxSize =
 2. Change the sc_net_path, nbv_net_path, model_path, name_of_pcd and method_of_IG in file DefaultConfiguration.yaml.
 3. Make sure that VP_simulation (contains compiled program), DefaultConfiguration.yaml are in the same path. Make sure that sc-net/view_space.txt is available.
 4. Run compiled program of main.cpp, such as VP_simulation/main.exe. For test NBV-Net or SCVP, run both main.exe and "python nbv_net/run_single_test.py {}" or "python sc_net/run_single_test.py {}" (replace {} by your model name) in pytorch environment at the same time.
-6. For the choice of methods (method_of_IG), MCMF (github.com/psc0628/NBV-Simulation) is 0, OA is 1, UV is 2, RSE is 3, APORA is 4, Kr is 5, NBVNET is 6, SCVP is 7.
+6. For the choice of methods (method_of_IG), MCMF (https://github.com/psc0628/NBV-Simulation) is 0, OA is 1, UV is 2, RSE is 3, APORA is 4, Kr is 5, NBVNET is 6, SCVP is 7.
 7. There is a parameter "show", by default is 1, which means that the middle cloud will be shown in a pcl window, and close it to continue. If you don't want to show the middle cloud, change it to 0.
