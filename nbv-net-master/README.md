@@ -1,5 +1,5 @@
 # nbv-net-master
-Thanks for github.com/irvingvasquez/nbv-net.
+Thanks for https://github.com/irvingvasquez/nbv-net.
 This is the NBV-Net network under 32 candidate views.
 my_checkpoint.pth.tar is the pre-trained network file.
 data contains an example of the input gird.
