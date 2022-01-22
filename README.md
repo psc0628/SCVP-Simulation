@@ -1,5 +1,5 @@
 # SCVP-Simulation
-This is a repository for supporting our paper "SCVP: Learning One-shot View Planning via Set Covering for Unknown Object Reconstruction".
+This is a repository for supporting our paper "SCVP: Learning One-shot View Planning via Set Covering for Unknown Object Reconstruction" (DOI: 10.1109/LRA.2022.3140449).
 ## File structure
 The repository has four folders.
 Set_covering_data_generator contains c++ codes of data generation and configuration files. 
